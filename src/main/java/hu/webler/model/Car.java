@@ -9,7 +9,7 @@ public class Car {
     private double fuel; // üzemanyagszint
 
     // ha van paraméteres konstruktor a default üres megszűnik létezni, nekünk kell manuálisan létrehozni!
-    public Car() {
+    public Car() {  // Amikor nincs benne semmi "meghívva", akkor a default értékeket adja vissza.
 
     }
 
